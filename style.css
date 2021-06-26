@@ -413,16 +413,12 @@ h4{
    
         word-spacing: 0.5vw;
 
-        font-size: 3.1vh;
+        font-size: 2.5vh;
         text-decoration: none;
         text-align: center;
         margin: auto;
     }
 }
 
-* {
-    background: #000 !important;
-    color: #0f0 !important;
-    outline: solid #f00 1px !important;
-  }
+
   
