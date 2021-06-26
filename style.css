@@ -2,7 +2,6 @@ html body{
     margin: 0px;
     padding: 0px;
     background-color: #4a1d00;
-  
     height:100%;
     width:100%
 }
@@ -13,7 +12,6 @@ body{
   
 .wrapper{
     overflow-x:hidden;
-
 }
 .background{
     height: auto;
@@ -35,7 +33,6 @@ body{
 }
 
 .photobanner, .photobanner2 {
-
     width: 3550px;
     margin-bottom: 5px;
     font-size: 0;
@@ -47,7 +44,6 @@ body{
 	height: 100%;
 	width: 30%;
     opacity: 0.4;
-
 }
 
 .photobanner img  {
@@ -97,14 +93,12 @@ body{
 .heading{
     z-index: 1;
     position: absolute;
-
-        padding: 10px;
+    padding: 10px;
     left: 0; 
-     right: 0; 
+    right: 0; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top: 2vh;
-
 }
 
 .name{
@@ -132,7 +126,6 @@ input{
     color: white;
     margin: auto;
     text-align:center;
-    
 }
 
 
@@ -146,6 +139,7 @@ h2{
     font-size: 3vw;
     word-spacing: 0.5vw;
 }
+
 .instructions{
     padding: 5vh 15vw;
 }
@@ -161,24 +155,15 @@ h2{
     text-align:center;
     font-size: 5vh;
     word-spacing: 0.5vw;
-   
     font: 3em sans-serif;
-  
-    /* Uniform text field size */
-    
     box-sizing: border-box;
-  
-    /* Match form field borders */
     border: 1px solid #999;
 }
 
 
 form {
-    /* Center the form on the page */
     margin: 0 auto;
     width: 80vw;
-
-    /* Form outline */
     padding: 1em;
     background-color: #834f30;
     border-radius: 1em;
@@ -186,12 +171,10 @@ form {
     z-index:1;
     padding: 10px;
     left: 0; 
-     right: 0; 
+    right: 0; 
     margin-left: auto; 
     margin-right: auto; 
- 
     text-align: center;
-    
   }
   
   ul {
@@ -205,10 +188,7 @@ form {
   }
   
   label {
-    /* Uniform size & alignment */
     display: inline-block;
-
-   
   }
   
   input,
@@ -218,46 +198,29 @@ form {
     margin: auto;
     text-align:center;
     font-size: 3vw;
-    /* Uniform text field size */
-    
     box-sizing: border-box;
-
   }
   
   input:focus,
   textarea:focus {
-    /* Additional highlight for focused elements */
     border-color: #000;
   }
   
   textarea {
-    /* Align multiline text fields with their labels */
     vertical-align: top;
-  
-    /* Provide space to type some text */
     height: 5em;
   }
   
   .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
+    padding-left: 90px;
   }
   
   button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
     margin-left: .5em;
   }
 
   #name{
-
-    
-      /* Uniform text field size */
-      
       box-sizing: border-box;
-    
-      /* Match form field borders */
-
     }
 
 
@@ -275,7 +238,6 @@ a, button{
     color:#834f30;
     margin: auto;
     text-align:center;
-   
     word-spacing: 0.5vw;
 
 }
@@ -308,12 +270,10 @@ a, button{
 }
 
 .submit{
-      
-
-        font-size: 7vh;
-        text-decoration: none;
-        text-align: center; 
-        margin:auto; 
+    font-size: 7vh;
+    text-decoration: none;
+    text-align: center; 
+    margin:auto; 
 }
 
 
@@ -341,12 +301,11 @@ h4{
     text-align:center;
     font-size: 2vh;
     left: 0; 
-     right: 0; 
+    right: 0; 
     margin-left: auto; 
     margin-right: auto; 
     margin-top:90vh;
     z-index:1;
-
 }
 
 .input#file.feedback-input{
@@ -359,9 +318,7 @@ input[type="file"]::-webkit-file-upload-button {
     color:#834f30;
     margin: auto;
     text-align:center;
-
     word-spacing: 0.5vw;
-
     font-size: 2.5vw;
     text-decoration: none;
     text-align: center;
@@ -392,7 +349,6 @@ input[type="file"]::-webkit-file-upload-button {
       margin: auto;
       text-align:center;
       font-size: 6vw;
-      /* Uniform text field size */
       box-sizing: border-box;
       width:80vw;
     }
@@ -404,12 +360,12 @@ input[type="file"]::-webkit-file-upload-button {
     margin: auto;
     text-align:center;
     font-size: 4vw;
-    /* Uniform text field size */
     box-sizing: border-box;
     margin-top: 3vw;
     margin-bottom: 2vw;
     padding:1vw;
     }
+
     a, button{
         font-family: 'Gibson', sans-serif;
         color:#834f30;
@@ -417,7 +373,6 @@ input[type="file"]::-webkit-file-upload-button {
         text-align:center;
        font-size:7vw;
         word-spacing: 0.5vw;
-    
     }
     
     input[type="file"]::-webkit-file-upload-button {
