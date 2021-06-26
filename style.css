@@ -2,6 +2,10 @@ html body{
     margin: 0px;
     padding: 0px;
     background-color: #4a1d00;
+
+        max-width: 100%;
+        overflow-x: hidden;
+    
 }
   
 .background{
