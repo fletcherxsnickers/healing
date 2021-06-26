@@ -3,10 +3,14 @@ html body{
     padding: 0px;
     background-color: #4a1d00;
     max-width: 100%;
-    overflow:hidden;
+    overflow-x:hidden;
    
     height:100%;
     width:100%
+}
+
+body{
+   position:relative;
 }
   
 .background{
