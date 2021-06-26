@@ -2,9 +2,7 @@ html body{
     margin: 0px;
     padding: 0px;
     background-color: #4a1d00;
-    max-width: 100vw;
-    max-height: 100vh;
-    overflow-x:hidden;
+  
     height:100%;
     width:100%
 }
@@ -13,6 +11,10 @@ body{
    position:relative;
 }
   
+.wrapper{
+    overflow-x:hidden;
+
+}
 .background{
     height: auto;
 }
