@@ -393,13 +393,12 @@ h4{
     margin-bottom: 2vw;
     padding:1vw;
     }
-
     a, button{
         font-family: 'Gibson', sans-serif;
         color:#834f30;
         margin: auto;
         text-align:center;
-        font-size:7vw;
+       font-size:7vw;
         word-spacing: 0.5vw;
     
     }
@@ -408,12 +407,12 @@ h4{
         background-color:white;
         font-family: 'Gibson', sans-serif;
         color:#834f30;
-        margin: auto;
+     margin: auto;
         text-align:center;
-        word-spacing: 0.5vw;
-        padding: 0.25em;
-        font-size: 4vw;
    
+        word-spacing: 0.5vw;
+        padding: 1em;
+        font-size: 7vh;
         text-decoration: none;
         text-align: center;
         margin: auto;
