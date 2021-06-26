@@ -459,8 +459,7 @@ input[type="file"]::-webkit-file-upload-button {
     top: 4px;
     height: 20vh !important;
     width: 15vw !important;
-    color:#834f30 !important;
-    background-color: white !important;
+
 }
 
 .xl .btn i {
@@ -469,11 +468,7 @@ input[type="file"]::-webkit-file-upload-button {
     width: 15vw !important;
 }
 
-#btn {
-    height:100vh !important;
-    color:#834f30 !important;
-    background-color: white !important;
-}
+\
 
 .twitter-widget-0{
     position:absolute !important;
