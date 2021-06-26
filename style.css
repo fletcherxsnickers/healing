@@ -1,0 +1,337 @@
+html body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #4a1d00;
+}
+  
+.background{
+    height: auto;
+}
+
+.home{
+    height: auto;
+    width: auto;
+}
+
+/* Photo Banner */
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: transparent;
+    z-index: 0 !important;
+    position: relative;
+}
+
+.photobanner, .photobanner2 {
+
+    width: 3550px;
+    margin-bottom: 5px;
+    font-size: 0;
+}
+
+.photobanner img, .photobanner2 img {
+	margin-bottom: 10px;
+	margin-right: 5px;
+	height: 100%;
+	width: 30%;
+    opacity: 0.4;
+
+}
+
+.photobanner img  {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ 
+
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {margin-left: 0px;}
+ 100% {margin-left: -2130px;}
+}
+
+.heading{
+    z-index: 1;
+    position: absolute;
+
+        padding: 10px;
+    left: 0; 
+     right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 2vh;
+
+}
+
+.name{
+    margin-top:10vh;
+}
+
+h1{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 10vh;
+}
+
+.file{
+    margin-left:19vw;
+
+}
+label{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 7vh;
+}
+
+input{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    
+}
+
+
+
+
+h2{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 5vh;
+    word-spacing: 0.5vw;
+}
+.instructions{
+    padding: 5vh 20vw;
+}
+
+.title{
+    word-spacing: 3vw;
+}
+
+#text{
+    font-family: 'Gibson', sans-serif;
+    color: rgb(150, 92, 92);
+    margin: auto;
+    text-align:center;
+    font-size: 5vh;
+    word-spacing: 0.5vw;
+   
+    font: 3em sans-serif;
+  
+    /* Uniform text field size */
+    
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 80vw;
+    height: 50vh;
+    /* Form outline */
+    padding: 1em;
+    background-color: #834f30;
+    border-radius: 1em;
+    position: absolute;
+    z-index:1;
+    padding: 10px;
+    left: 0; 
+     right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+  
+    text-align: center;
+    
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+
+   
+  }
+  
+  input,
+  textarea {
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 6vh;
+    /* Uniform text field size */
+    
+    box-sizing: border-box;
+
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+
+  #name{
+      /* To make sure that all text fields have the same font settings
+         By default, textareas have a monospace font */
+      font: 7vh sans-serif;
+    
+      /* Uniform text field size */
+      
+      box-sizing: border-box;
+    
+      /* Match form field borders */
+      border: 1px solid #999;
+    }
+
+
+p{
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 5vh;
+    word-spacing: 0.5vw;
+}
+
+a, button{
+    font-family: 'Gibson', sans-serif;
+    color:#834f30;
+    margin: auto;
+    text-align:center;
+    font-size: 5vh;
+    word-spacing: 0.5vw;
+
+}
+
+#file-upload-button{
+    color:#834f30;
+}
+
+.button1:hover{
+    color:#000!important;
+    background-color:#ccc!important
+}
+
+.block{
+    display:block;
+    width:100%
+}
+
+.black,.-hover-black:hover{
+    color:#834f30;
+    background-color:white!important;
+}
+
+.submit{
+        background:white;
+        width: 10vw;
+        font-size: 7vh;
+        text-decoration: none;
+        text-align: center; 
+        margin:auto; 
+}
+
+
+#ty{
+    position:absolute;
+    font-family: 'Gibson', sans-serif;
+    color: white;
+    margin: auto;
+    text-align:center;
+    font-size: 10vh;
+    left: 0; 
+     right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:30vh;
+    z-index:1;
+}
+
+
+h4{
+    position:absolute;
+    font-family: 'Gibson', sans-serif;
+    color: #835337;
+    margin: auto;
+    text-align:center;
+    font-size: 2vh;
+    left: 0; 
+     right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:90vh;
+    z-index:1;
+
+}
