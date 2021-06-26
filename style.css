@@ -393,6 +393,7 @@ h4{
     margin-bottom: 2vw;
     padding:1vw;
     }
+
     a, button{
         font-family: 'Gibson', sans-serif;
         color:#834f30;
@@ -410,7 +411,7 @@ h4{
         margin: auto;
         text-align:center;
         word-spacing: 0.5vw;
-        padding: 0.25em;
+    
    
         text-decoration: none;
         text-align: center;
