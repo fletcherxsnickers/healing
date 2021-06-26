@@ -353,7 +353,23 @@ h4{
     font-size:4vh;
 }
 
-@media only screen and (max-width: 700px) {
+input[type="file"]::-webkit-file-upload-button {
+    background-color:white;
+    font-family: 'Gibson', sans-serif;
+    color:#834f30;
+    margin: auto;
+    text-align:center;
+
+    word-spacing: 0.5vw;
+
+    font-size: 2.5vw;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+}
+
+
+@media  (max-width: 700px) {
     h1{
         font-size:10vw;
     }
@@ -403,38 +419,22 @@ h4{
         word-spacing: 0.5vw;
     
     }
+    
     input[type="file"]::-webkit-file-upload-button {
         background-color:white;
         font-family: 'Gibson', sans-serif;
         color:#834f30;
         margin: auto;
         text-align:center;
-    
         word-spacing: 0.5vw;
-    
-        font-size: 2.3vh;
+        font-size: 2.3vh !important;
         text-decoration: none;
         text-align: center;
         margin: auto;
-        }
-    
+     }
     
 }
 
-input[type="file"]::-webkit-file-upload-button {
-    background-color:white;
-    font-family: 'Gibson', sans-serif;
-    color:#834f30;
-    margin: auto;
-    text-align:center;
-
-    word-spacing: 0.5vw;
-
-    font-size: 2.5vw;
-    text-decoration: none;
-    text-align: center;
-    margin: auto;
- }
 
 
 
