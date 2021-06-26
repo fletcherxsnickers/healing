@@ -405,5 +405,12 @@ h4{
 
     input[type="file"]::-webkit-file-upload-button {
         background-color:white;
+        font-family: 'Gibson', sans-serif;
+    color:#834f30;
+    margin: auto;
+    text-align:center;
+   
+    word-spacing: 0.5vw;
+        
     }
 }
