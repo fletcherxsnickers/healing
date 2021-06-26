@@ -97,7 +97,7 @@ html body{
 }
 
 .name{
-    margin-top:10vh;
+    margin-top:2vw;
 }
 
 h1{
@@ -108,10 +108,6 @@ h1{
     font-size: 10vh;
 }
 
-.file{
-    margin-left:19vw;
-
-}
 label{
     font-family: 'Gibson', sans-serif;
     color: white;
@@ -170,7 +166,7 @@ form {
     /* Center the form on the page */
     margin: 0 auto;
     width: 80vw;
-    height: 50vh;
+
     /* Form outline */
     padding: 1em;
     background-color: #834f30;
@@ -182,7 +178,7 @@ form {
      right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-  
+ 
     text-align: center;
     
   }
@@ -210,7 +206,7 @@ form {
     color: white;
     margin: auto;
     text-align:center;
-    font-size: 6vh;
+    font-size: 3vw;
     /* Uniform text field size */
     
     box-sizing: border-box;
@@ -243,16 +239,14 @@ form {
   }
 
   #name{
-      /* To make sure that all text fields have the same font settings
-         By default, textareas have a monospace font */
-      font: 7vh sans-serif;
+
     
       /* Uniform text field size */
       
       box-sizing: border-box;
     
       /* Match form field borders */
-      border: 1px solid #999;
+
     }
 
 
@@ -261,7 +255,7 @@ p{
     color: white;
     margin: auto;
     text-align:center;
-    font-size: 5vh;
+    font-size: 4vw;
     word-spacing: 0.5vw;
 }
 
@@ -275,6 +269,10 @@ a, button{
 
 }
 
+.file{
+    margin-left:11vw;
+}
+
 #file-upload-button{
     color:#834f30;
 }
@@ -286,7 +284,7 @@ a, button{
 
 .block{
     display:block;
-    width:100%
+    width:30vw;
 }
 
 .black,.-hover-black:hover{
@@ -295,8 +293,8 @@ a, button{
 }
 
 .submit{
-        background:white;
-        width: 10vw;
+      
+
         font-size: 7vh;
         text-decoration: none;
         text-align: center; 
@@ -315,7 +313,7 @@ a, button{
      right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top:30vh;
+    margin-top:20vh;
     z-index:1;
 }
 
@@ -333,5 +331,17 @@ h4{
     margin-right: auto; 
     margin-top:90vh;
     z-index:1;
+
+}
+
+.input#file.feedback-input{
+    font-size:4vh;
+}
+
+@media only screen and (min-width: 865px) {
+    .input#file.feedback-input{
+        font-size:4vh;
+    }
+
 
 }
