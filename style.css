@@ -402,4 +402,8 @@ h4{
         word-spacing: 0.5vw;
     
     }
+
+    input[type="file"]::-webkit-file-upload-button {
+        background-color:white;
+    }
 }
